@@ -1,0 +1,14 @@
+name: MyPlot
+version: 1.0.9
+api: 1.7.0
+main: EarthQuakeOfMCPE\MyPlot\Sc\PlotMain
+author: EarthQuakeOfMCPE
+description: EarthQuakeOfMCPE MyPlot Full AntiGrief
+commands:
+ pplot:
+  description: "Start EarthQuakeOfMCPE Private Plot"
+  permission: myplot.plugin.private.plot
+permissions:
+ myplot.plugin.private.plot:
+  description: "myplot.plugin.private.plot"
+  default: op
