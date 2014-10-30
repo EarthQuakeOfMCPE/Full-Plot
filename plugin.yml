@@ -2,7 +2,7 @@ name: MyPlot
 version: 1.0.9
 api: 1.7.0
 main: EarthQuakeOfMCPE\MyPlot\Sc\PlotMain
-author: EarthQuakeOfMCPE
+author: EarthQuakeOfMCPE & Futol & CorpRat
 description: EarthQuakeOfMCPE MyPlot Full AntiGrief
 commands:
  pplot:
