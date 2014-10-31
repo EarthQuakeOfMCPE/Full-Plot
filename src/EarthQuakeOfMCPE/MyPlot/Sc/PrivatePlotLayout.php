@@ -126,7 +126,7 @@ class PrivatePlotLayout {
 				}
 			}
 		}
-		$sender->sendMessage ( "zone de traçage rendu!" );
+		$sender->sendMessage ( "zone de Plot rendu!" );
 		$this->log ( "Mise à jour parcelle cache " . count ( $this->plugin->cachedPlotBlocks ) );
 	}
 	public function resetBlock(Block $block, Level $level, $blockType) {
