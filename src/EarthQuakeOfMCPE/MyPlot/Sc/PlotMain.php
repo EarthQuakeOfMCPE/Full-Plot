@@ -94,8 +94,8 @@ class PlotMain extends PluginBase implements Listener {
 		$this->log ( TextFormat::GREEN . "####################################" );
 		$this->log ( TextFormat::GREEN . "####################################" );
 		$this->log ( TextFormat::GREEN . "####################################" );
-		$this->log ( TextFormat::GREEN . "##MyPplot de La Team EarthQuakeOfMCPE####" );
-	    $this->log ( TextFormat::GREEN . "#####################################" );
+		$this->log ( TextFormat::GREEN . "##MyPplot  Team EarthQuakeOfMCPE####" );
+	    $this->log ( TextFormat::GREEN     . "#####################################" );
 		$this->log ( TextFormat::GREEN . "#####################################" );
 		$this->log ( TextFormat::GREEN . "#####################################" );
 		// $this->loadPlots ();
