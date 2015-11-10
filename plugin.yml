@@ -1,5 +1,5 @@
 name: MyPlot
-version: 1.0.9
+version: 1.0.10 INDEV
 api: 1.7.0
 main: EarthQuakeOfMCPE\MyPlot\Sc\PlotMain
 author: EarthQuakeOfMCPE & Futol & CorpRat
