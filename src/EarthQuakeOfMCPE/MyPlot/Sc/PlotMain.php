@@ -84,10 +84,7 @@ class PlotMain extends PluginBase implements Listener {
 	 * @see \pocketmine\plugin\PluginBase::onEnable()
 	 */
 	public function onEnable() {
-		if (! file_exists ( $this->getDataFolder () . "config.yml" )) {
-			@mkdir ( $this->getDataFolder () );
-			file_put_contents ( $this->getDataFolder () . "config.yml", $this->getResource ( "config.yml" ) );
-		}
+		$this->saveDefaultConfig();
 		// read restriction
 		// $this->config = yaml_parse(file_get_contents($this->getDataFolder() . "config.yml"));
 		$this->getConfig ()->getAll ();
